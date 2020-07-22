@@ -5,3 +5,9 @@
 .home-icon {
     font-size: 150%;
 }
+
+.img-fluid {
+    display: inline;
+    max-width: 30% !important;
+    margin-right: 17% !important;
+}
