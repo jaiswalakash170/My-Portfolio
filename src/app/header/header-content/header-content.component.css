@@ -1,0 +1,22 @@
+.header-content-right {
+    position: relative;
+    margin-left: 50px;
+}
+
+.header-content-right .sub-title {
+    margin-top: 50px;
+    font-size: 30px;
+    color: #754ef9;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.header-content-right .title {
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.header-content-right p {
+    padding-bottom: 40px;
+}
