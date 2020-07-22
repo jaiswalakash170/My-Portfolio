@@ -13,13 +13,15 @@ import { HeaderContentComponent } from './header/header-content/header-content.c
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HeaderNavigationComponent,
-    HeaderContentComponent
+    HeaderContentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

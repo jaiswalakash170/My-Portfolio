@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 body {
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #8a8fa3;
 }
 
 h1,
@@ -36,4 +41,12 @@ h5 {
 
 h6 {
     font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #8a8fa3;
+    margin: 0px;
 }
