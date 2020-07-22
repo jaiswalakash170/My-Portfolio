@@ -1,0 +1,38 @@
+/*===========================
+        3.ABOUT css 
+===========================*/
+
+.section-title {
+    margin-left: 50px;
+}
+
+.section-title .title {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    margin-left: 50px;
+}
+
+.about-content .about-title {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.about-content .single-info .info-icon i {
+    font-size: 16px;
+    color: #754ef9;
+}
+
+.about-content .single-info .info-text {
+    padding-left: 13px;
+}
+
+.about-content .single-info .info-text p span {
+    color: #32333c;
+}
