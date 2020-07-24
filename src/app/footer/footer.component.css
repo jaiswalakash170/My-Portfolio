@@ -56,3 +56,27 @@
 .footer-copyright .copyright-text p {
     color: #fff;
 }
+
+.footer_link h2 {
+    color: #fff;
+}
+
+.footer_link a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_link a:hover {
+    background-color: #754ef9;
+    text-decoration: none;
+}
+
+.footer_link a:active {
+    background-color: #754ef9;
+    text-decoration: none;
+}
+
+.footer_link a:visited {
+    color: #fff;
+    text-decoration: none;
+}
