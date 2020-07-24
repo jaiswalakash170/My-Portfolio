@@ -24,6 +24,7 @@ export class HeaderNavigationComponent implements OnInit {
 
   toProjects(): void {
     console.log("toProjects() called");
+    document.getElementById("projects").scrollIntoView({behavior: "smooth"});
   }
 
   toWorkExp(): void {

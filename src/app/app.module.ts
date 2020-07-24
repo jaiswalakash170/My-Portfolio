@@ -16,7 +16,8 @@ import { HeaderContentComponent } from './header/header-content/header-content.c
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { PreloaderComponent } from './preloader/preloader.component';
-import { SkillsComponent } from './skills/skills.component'
+import { SkillsComponent } from './skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SkillsComponent } from './skills/skills.component'
     AboutComponent,
     FooterComponent,
     PreloaderComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
