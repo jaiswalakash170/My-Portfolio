@@ -18,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
 import { PreloaderComponent } from './preloader/preloader.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { WorkexpComponent } from './workexp/workexp.component'
+import { WorkexpComponent } from './workexp/workexp.component';
+import { ContactComponent } from './contact/contact.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { WorkexpComponent } from './workexp/workexp.component'
     PreloaderComponent,
     SkillsComponent,
     ProjectsComponent,
-    WorkexpComponent
+    WorkexpComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

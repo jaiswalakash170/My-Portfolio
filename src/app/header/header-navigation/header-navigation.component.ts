@@ -34,5 +34,6 @@ export class HeaderNavigationComponent implements OnInit {
 
   toContact(): void {
     console.log("toContact() called");
+    document.getElementById("contact").scrollIntoView({behavior: "smooth"});
   }
 }
