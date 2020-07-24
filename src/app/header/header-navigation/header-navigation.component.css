@@ -1,3 +1,14 @@
+.nav-bar {
+    height: 200px;
+    background: #61A7AF;
+    position: fixed;
+    /* For macOS/iOS Safari */
+    top: 0;
+    /* Sets the sticky toolbar to be on top */
+    z-index: 300;
+    /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
 .spacer {
     flex: 1 1 auto;
 }

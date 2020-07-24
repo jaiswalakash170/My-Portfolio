@@ -19,6 +19,7 @@ export class HeaderNavigationComponent implements OnInit {
 
   toSkills(): void {
     console.log("toSkills() called");
+    document.getElementById("skills").scrollIntoView({behavior: "smooth"});
   }
 
   toProjects(): void {
