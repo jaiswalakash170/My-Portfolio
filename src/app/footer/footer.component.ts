@@ -12,4 +12,7 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toHeader(): void {
+    document.getElementById("header").scrollIntoView({behavior: "smooth"});
+  }
 }
