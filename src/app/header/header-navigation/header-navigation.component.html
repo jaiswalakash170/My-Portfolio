@@ -6,10 +6,10 @@
         <a mat-button href="index.html">
             <mat-icon>home</mat-icon>
         </a>
-        <a mat-button><span style="font-size: 150%">About Me</span></a>
-        <a mat-button><span style="font-size: 150%">Skills</span></a>
-        <a mat-button><span style="font-size: 150%">Projects</span> </a>
-        <a mat-button><span style="font-size: 150%">Work Experience</span> </a>
-        <a mat-raised-button color="accent"><span style="font-size: 150%">Contact Me</span></a>
+        <a mat-button (click)="toAbout()"><span style="font-size: 150%">About Me</span></a>
+        <a mat-button (click)="toSkills()"><span style="font-size: 150%">Skills</span></a>
+        <a mat-button (click)="toProjects()"><span style="font-size: 150%">Projects</span> </a>
+        <a mat-button (click)="toWorkExp()"><span style="font-size: 150%">Work Experience</span> </a>
+        <a mat-raised-button color="accent" (click)="toContact()"><span style="font-size: 150%">Contact Me</span></a>
     </div>
 </mat-toolbar>
