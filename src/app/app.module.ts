@@ -13,7 +13,8 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderNavigationComponent } from './header/header-navigation/header-navigation.component';
 import { HeaderContentComponent } from './header/header-content/header-content.component';
 import { AboutComponent } from './about/about.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { PreloaderComponent } from './preloader/preloader.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component'
     HeaderNavigationComponent,
     HeaderContentComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    PreloaderComponent
   ],
   imports: [
     BrowserModule,
