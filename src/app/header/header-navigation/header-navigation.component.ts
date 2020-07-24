@@ -29,6 +29,7 @@ export class HeaderNavigationComponent implements OnInit {
 
   toWorkExp(): void {
     console.log("toWorkExp() called");
+    document.getElementById("workexp").scrollIntoView({behavior: "smooth"});
   }
 
   toContact(): void {
