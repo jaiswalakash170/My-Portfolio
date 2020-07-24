@@ -67,12 +67,13 @@
 }
 
 .footer_link a:hover {
-    background-color: #754ef9;
+    background-color: gray;
     text-decoration: none;
+    font-size: 150%;
 }
 
 .footer_link a:active {
-    background-color: #754ef9;
+    background-color: gray;
     text-decoration: none;
 }
 
