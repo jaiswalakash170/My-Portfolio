@@ -15,7 +15,8 @@ import { HeaderNavigationComponent } from './header/header-navigation/header-nav
 import { HeaderContentComponent } from './header/header-content/header-content.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
-import { PreloaderComponent } from './preloader/preloader.component'
+import { PreloaderComponent } from './preloader/preloader.component';
+import { SkillsComponent } from './skills/skills.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PreloaderComponent } from './preloader/preloader.component'
     HeaderContentComponent,
     AboutComponent,
     FooterComponent,
-    PreloaderComponent
+    PreloaderComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
