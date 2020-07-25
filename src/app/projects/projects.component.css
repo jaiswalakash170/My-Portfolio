@@ -1,41 +1,18 @@
-/*===========================
-        3.ABOUT css 
-===========================*/
-
-.skills-area {
+.projects-area {
     margin-top: 100px;
     margin-left: 50px;
+    margin-right: 50px;
     position: relative;
+    text-align: center;
 }
 
-.section-title {}
-
-.section-title .title {
+.projects-title .title {
     font-weight: 700;
     font-size: 45px;
     color: #000;
     padding-bottom: 20px;
 }
 
-.about-content {
+.projects-content {
     margin-left: 50px;
-}
-
-.about-content .about-title {
-    font-size: 18px;
-    font-weight: 500;
-    padding-bottom: 15px;
-}
-
-.about-content .single-info .info-icon i {
-    font-size: 16px;
-    color: #754ef9;
-}
-
-.about-content .single-info .info-text {
-    padding-left: 13px;
-}
-
-.about-content .single-info .info-text p span {
-    color: #32333c;
 }

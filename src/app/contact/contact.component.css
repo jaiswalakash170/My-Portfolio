@@ -5,37 +5,37 @@
 .skills-area {
     margin-top: 100px;
     margin-left: 50px;
+    margin-right: 50px;
     position: relative;
+    text-align: center;
 }
 
-.section-title {}
-
-.section-title .title {
+.skills-title .title {
     font-weight: 700;
     font-size: 45px;
     color: #000;
     padding-bottom: 20px;
 }
 
-.about-content {
+.skills-content {
     margin-left: 50px;
 }
 
-.about-content .about-title {
+.skills-content .skills-title {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 15px;
 }
 
-.about-content .single-info .info-icon i {
+.skills-content .single-info .info-icon i {
     font-size: 16px;
     color: #754ef9;
 }
 
-.about-content .single-info .info-text {
+.skills-content .single-info .info-text {
     padding-left: 13px;
 }
 
-.about-content .single-info .info-text p span {
+.skills-content .single-info .info-text p span {
     color: #32333c;
 }
