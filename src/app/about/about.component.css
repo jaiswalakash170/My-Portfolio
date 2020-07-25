@@ -1,40 +1,21 @@
-/*===========================
-        3.ABOUT css 
-===========================*/
-
 .about-area {
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
 }
 
-.section-title {}
-
-.section-title .title {
+.about-area .title {
     font-weight: 700;
     font-size: 45px;
     color: #000;
     padding-bottom: 20px;
 }
 
-.about-content {
-    margin-left: 50px;
-}
-
-.about-content .about-title {
-    font-size: 18px;
+.about-area .about-title {
+    line-height: 2;
+    font-family: 'Vollkorn', serif;
+    font-size: 25px;
     font-weight: 500;
     padding-bottom: 15px;
-}
-
-.about-content .single-info .info-icon i {
-    font-size: 16px;
-    color: #754ef9;
-}
-
-.about-content .single-info .info-text {
-    padding-left: 13px;
-}
-
-.about-content .single-info .info-text p span {
-    color: #32333c;
 }
