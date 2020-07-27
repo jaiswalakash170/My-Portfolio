@@ -1,3 +1,7 @@
+<button mat-button (click)="onClose()">
+    <mat-icon>close</mat-icon>
+</button>
+
 <section id="contact" class="skills-area pt-125 pb-130">
     <div class="container">
         <div class="row justify-content-center">
@@ -6,37 +10,28 @@
                     <h2 class="title">Contact Me</h2>
                     <p> </p>
                 </div>
-                <!-- section title -->
             </div>
         </div>
         <!-- row -->
         <div class="row">
             <div class="col-lg-6">
                 <div class="skills-content mt-50">
-                    <ul class="clearfix">
-                        <li>
-                            <div class="single-info d-flex align-items-center">
-                                <div class="info-icon">
-                                    <i class="lni-envelope"></i>
-                                </div>
-                                <div class="info-text">
-                                    <p><span>Email:</span> akash12jaiswalwork@gmail.com</p>
-                                </div>
-                            </div>
-                            <!-- single info -->
-                        </li>
-                        <li>
-                            <div class="single-info d-flex align-items-center">
-                                <div class="info-icon">
-                                    <i class="lni-map-marker"></i>
-                                </div>
-                                <div class="info-text">
-                                    <p><span>Location:</span> 411027, Pune, Maharashtra</p>
-                                </div>
-                            </div>
-                            <!-- single info -->
-                        </li>
-                    </ul>
+                    <div class="single-info d-flex align-items-center">
+                        <div class="info-icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="info-text">
+                            <p><span>Email:</span> akash12jaiswalwork@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="single-info d-flex align-items-center">
+                        <div class="info-icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="info-text">
+                            <p><span>Location:</span> 411027, Pune, Maharashtra</p>
+                        </div>
+                    </div>
                 </div>
                 <!-- about content -->
             </div>
