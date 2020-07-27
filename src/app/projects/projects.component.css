@@ -34,6 +34,14 @@
     box-shadow: 5px 5px 10px #9e9e9e;
 }
 
+.projects-area .card:hover h4 {
+    font-weight: 600;
+}
+
+.projects-area .card:hover p {
+    color: #fff;
+}
+
 .projects-area .projects-content {
     margin-left: 50px;
 }
