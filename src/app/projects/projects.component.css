@@ -38,6 +38,10 @@
     font-weight: 600;
 }
 
+.projects-area .card:hover h2 {
+    font-weight: 600;
+}
+
 .projects-area .card:hover p {
     color: #fff;
 }
