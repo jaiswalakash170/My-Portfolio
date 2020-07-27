@@ -38,3 +38,15 @@
     color: rgb(0, 0, 0);
     border: none;
 }
+
+.workexp-area .card:hover h2 {
+    font-weight: 700;
+}
+
+.workexp-area .card:hover h3 {
+    font-weight: 700;
+}
+
+.workexp-area .card:hover h4 {
+    font-weight: 700;
+}
