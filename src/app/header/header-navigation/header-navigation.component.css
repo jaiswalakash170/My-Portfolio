@@ -1,7 +1,7 @@
 .nav-bar {
-    height: 200px;
+    height: 300px;
     background: #61A7AF;
-    position: fixed;
+    position: relative;
     /* For macOS/iOS Safari */
     top: 0;
     /* Sets the sticky toolbar to be on top */
