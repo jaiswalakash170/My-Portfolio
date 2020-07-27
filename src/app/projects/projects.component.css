@@ -13,6 +13,11 @@
     padding-bottom: 20px;
 }
 
+.projects-area .sub-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
 .projects-area .card {
     border-radius: 0;
     box-shadow: 5px 5px 15px #61A7AF;
