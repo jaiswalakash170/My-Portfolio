@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialogbox: MatDialogRef<ContactComponent>) { }
 
   ngOnInit(): void {
   }
 
+  onClose(): void{
+    this.dialogbox.close();
+  }
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { ContactComponent } from 'src/app/contact/contact.component';
 
 @Component({
   selector: 'app-header-navigation',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderNavigationComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dialog:MatDialog) { }
 
   ngOnInit(): void {
   }
@@ -34,6 +36,10 @@ export class HeaderNavigationComponent implements OnInit {
 
   toContact(): void {
     console.log("toContact() called");
-    document.getElementById("contact").scrollIntoView({behavior: "smooth"});
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.autoFocus = true;
+    dialogConfig.width = "70%";
+    this.dialog.open(ContactComponent, dialogConfig);
   }
 }
