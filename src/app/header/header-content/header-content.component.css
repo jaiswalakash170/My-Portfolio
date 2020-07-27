@@ -1,10 +1,10 @@
-.header-content-right {
+.header-content {
     position: relative;
     margin-top: 100px;
     margin-left: 50px;
 }
 
-.header-content-right .sub-title {
+.header-content .sub-title {
     margin-top: 50px;
     font-size: 30px;
     color: #754ef9;
@@ -12,12 +12,20 @@
     padding-bottom: 15px;
 }
 
-.header-content-right .title {
+.header-content .title {
     font-size: 60px;
     text-transform: uppercase;
     padding-bottom: 15px;
 }
 
-.header-content-right p {
+.header-content p {
     padding-bottom: 10px;
+}
+
+.header-content a:hover {
+    text-decoration: none;
+}
+
+.header-content a:active {
+    text-decoration: none;
 }
