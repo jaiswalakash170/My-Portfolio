@@ -22,3 +22,11 @@
     max-width: 30% !important;
     margin-right: 17% !important;
 }
+
+.navitems a:hover {
+    text-decoration: none;
+}
+
+.navitems a:active {
+    text-decoration: none;
+}
