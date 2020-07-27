@@ -6,13 +6,22 @@
     text-align: center;
 }
 
-.skills-title .title {
+.title {
     font-weight: 700;
     font-size: 45px;
     color: #000;
     padding-bottom: 20px;
 }
 
+.sub-title {
+    font-weight: 200;
+    font-size: 25px;
+}
+
 .skills-content {
     padding-bottom: 15px;
+}
+
+.skills-row {
+    text-align: center;
 }
