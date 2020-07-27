@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.card {
+.skills-area .card {
     border-radius: 0;
     box-shadow: 5px 5px 15px #e74c3c;
     transition: all 0.3s ease-in;
@@ -14,7 +14,7 @@
     -moz-transition: all 0.3s ease-in;
 }
 
-.card:hover {
+.skills-area .card:hover {
     background: #e74c3c;
     color: #fff;
     border-radius: 5px;
@@ -22,26 +22,26 @@
     box-shadow: 5px 5px 10px #9e9e9e;
 }
 
-.card:hover li {
-    color: #fff;
+.skills-area .card:hover li {
+    color: rgb(0, 0, 0);
 }
 
-.title {
+.skills-area .title {
     font-weight: 700;
     font-size: 45px;
     color: #000;
     padding-bottom: 20px;
 }
 
-.sub-title {
+.skills-area .sub-title {
     font-weight: 200;
     font-size: 25px;
 }
 
-.skills-content {
+.skills-area .skills-content {
     padding-bottom: 15px;
 }
 
-.skills-row {
+.skills-area .skills-row {
     text-align: center;
 }
