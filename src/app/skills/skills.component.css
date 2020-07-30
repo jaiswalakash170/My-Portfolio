@@ -8,14 +8,14 @@
 
 .skills-area .card {
     border-radius: 0;
-    box-shadow: 5px 5px 15px #61A7AF;
+    box-shadow: 5px 5px 15px #9370DB;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
 }
 
 .skills-area .card:hover {
-    background: #61A7AF;
+    background: #9370DB;
     color: #fff;
     border-radius: 5px;
     border: none;
