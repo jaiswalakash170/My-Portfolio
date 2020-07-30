@@ -37,6 +37,13 @@
     backface-visibility: hidden;
 }
 
+.workexp-area .card-container .card-front .card-body {
+    position: absolute;
+    top: 30%;
+    margin-left: 2%;
+    line-height: 10px;
+}
+
 .workexp-area .card-container:hover .card-front {
     transform: rotateY(180deg);
 }
@@ -57,19 +64,20 @@
     box-shadow: 5px 5px 10px #9e9e9e;
 }
 
-.workexp-area .card-container:hover .card li {
+.workexp-area .card-container .card li {
     color: rgb(0, 0, 0);
     border: none;
 }
 
-.workexp-area .card-container:hover .card h2 {
+.workexp-area .card-container .card h2 {
     font-weight: 700;
 }
 
-.workexp-area .card-container:hover .card h3 {
+.workexp-area .card-container .card h3 {
     font-weight: 700;
 }
 
-.workexp-area .card-container:hover .card h4 {
+.workexp-area .card-container .card h4 {
     font-weight: 700;
+    font-size: 25px;
 }
