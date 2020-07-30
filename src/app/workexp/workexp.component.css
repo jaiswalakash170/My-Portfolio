@@ -1,7 +1,5 @@
 .workexp-area {
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
     position: relative;
     text-align: center;
 }
@@ -18,15 +16,40 @@
     font-size: 25px;
 }
 
-.workexp-area .card {
-    border-radius: 0;
-    box-shadow: 5px 5px 15px #61A7AF;
-    transition: all 0.3s ease-in;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
+.workexp-area .card-container {
+    position: relative;
+    height: 500px;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    perspective: 200rem;
 }
 
-.workexp-area .card:hover {
+.workexp-area .card-container .card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #61A7AF;
+    transition: all 0.9s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    backface-visibility: hidden;
+}
+
+.workexp-area .card-container:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+.workexp-area .card-container .card-back {
+    transform: rotateY(180deg);
+}
+
+.workexp-area .card-container:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.workexp-area .card-container:hover .card {
     background: #61A7AF;
     color: #fff;
     border-radius: 5px;
@@ -34,19 +57,19 @@
     box-shadow: 5px 5px 10px #9e9e9e;
 }
 
-.workexp-area .card:hover li {
+.workexp-area .card-container:hover .card li {
     color: rgb(0, 0, 0);
     border: none;
 }
 
-.workexp-area .card:hover h2 {
+.workexp-area .card-container:hover .card h2 {
     font-weight: 700;
 }
 
-.workexp-area .card:hover h3 {
+.workexp-area .card-container:hover .card h3 {
     font-weight: 700;
 }
 
-.workexp-area .card:hover h4 {
+.workexp-area .card-container:hover .card h4 {
     font-weight: 700;
 }
