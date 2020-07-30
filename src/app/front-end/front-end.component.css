@@ -1,0 +1,33 @@
+.frontend-area {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.d-flex {
+    border: none;
+}
+
+.d-flex picture {
+    flex: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+}
+
+.img-fluid:hover {
+    transform: scale(1.2);
+}
