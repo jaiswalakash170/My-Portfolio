@@ -20,7 +20,8 @@ import { PreloaderComponent } from './preloader/preloader.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { WorkexpComponent } from './workexp/workexp.component';
-import { ContactComponent } from './contact/contact.component'
+import { ContactComponent } from './contact/contact.component';
+import { FrontEndComponent } from './front-end/front-end.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactComponent } from './contact/contact.component'
     SkillsComponent,
     ProjectsComponent,
     WorkexpComponent,
-    ContactComponent
+    ContactComponent,
+    FrontEndComponent
   ],
   imports: [
     BrowserModule,
