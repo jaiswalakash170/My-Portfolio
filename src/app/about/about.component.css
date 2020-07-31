@@ -1,21 +1,68 @@
 .about-area {
     margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
+    padding-bottom: 200px;
 }
 
 .about-area .title {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    line-height: 60px;
+    padding-bottom: 50px;
+}
+
+.about-area .title h2 {
     font-weight: 700;
     font-size: 45px;
     color: #000;
-    padding-bottom: 20px;
 }
 
-.about-area .about-title {
+.about-area .container {
+    display: table;
+    width: 100%;
+}
+
+.about-area .container .left-half {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.about-area .container .left-half .about-title {
     line-height: 2;
     font-family: 'Vollkorn', serif;
-    font-size: 25px;
-    font-weight: 500;
-    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.about-area .container .right-half {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    float: right;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about-area .container .right-half .img-fluid {
+    width: 125px;
+    height: 125px;
+}
+
+.about-area .container .right-half .img-fluid:hover {
+    transform: scale(1.2);
 }
