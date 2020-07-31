@@ -21,7 +21,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { WorkexpComponent } from './workexp/workexp.component';
 import { ContactComponent } from './contact/contact.component';
-import { FrontEndComponent } from './front-end/front-end.component'
+import { FrontEndComponent } from './front-end/front-end.component';
+import { BackEndComponent } from './back-end/back-end.component'
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FrontEndComponent } from './front-end/front-end.component'
     ProjectsComponent,
     WorkexpComponent,
     ContactComponent,
-    FrontEndComponent
+    FrontEndComponent,
+    BackEndComponent
   ],
   imports: [
     BrowserModule,
