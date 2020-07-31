@@ -58,11 +58,29 @@
     display: table;
 }
 
-.about-area .container .right-half .img-fluid {
+.about-area .container .right-half .img1 {
     width: 125px;
     height: 125px;
 }
 
-.about-area .container .right-half .img-fluid:hover {
+.about-area .container .right-half .img1:hover {
+    transform: scale(1.2);
+}
+
+.about-area .container .right-half .img2 {
+    width: 150px;
+    height: 125px;
+}
+
+.about-area .container .right-half .img2:hover {
+    transform: scale(1.2);
+}
+
+.about-area .container .right-half .img3 {
+    width: 200px;
+    height: 150px;
+}
+
+.about-area .container .right-half .img3:hover {
     transform: scale(1.2);
 }
