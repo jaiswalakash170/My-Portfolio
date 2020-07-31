@@ -11,9 +11,5 @@ export class HeaderContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  toProjects(): void {
-    console.log("toProjects() called");
-    document.getElementById("projects").scrollIntoView({behavior: "smooth"});
-  }
+  
 }
